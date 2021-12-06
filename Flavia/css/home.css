@@ -1,0 +1,198 @@
+html, body { background-color: #f9f5ef !important;}
+
+.content{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  
+  margin-top: 13.59375vw; /*Spazio tra content e il bordo in alto 262px*/
+}
+.text_content{
+  width: 30.26vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.testo_text_content{
+  margin-top: 2.34375vw;
+  margin-bottom: 2.34375vw;
+}
+.button_text_content{
+  width: 12.5vw;
+  height: 4.0625vw;
+  background-color: #f2eee9;
+  color: rgb(38, 37, 35);
+}
+.img_content{
+  width: 51.25vw;
+  height: 35.46875vw;
+  box-shadow: 2.39583333vw 2.39583333vw 0px #e8decf; 
+  /*-moz-box-shadow:  2em  2em 0px #dedede;
+  -webkit-box-shadow:  2em  2em 0px #dedede;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#dedede', Direction=135, Strength=10);*/
+  /*height: 100%;
+  box-shadow: transparent;*/
+}
+
+.banner{
+  height: 39.79vw; /* altezza del banner (800px - 36px = 764px) del padding 
+  per far calcolare in automatico la distanza della mappa dai bordi*/
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 12.4479167vw; /*spazio tra content e il banner 239px*/
+  padding-bottom: 1.875vw; /*padding del banner 36px*/
+}
+.map_banner{
+  margin-left: 5.9375vw; /* distanza a sinistra dal bordo alla mappa 114px*/
+  margin-right: 8.17708333vw; /*distanza tra la mappa e il testo dell banner 111px*/
+  width: 36.7708333vw;
+  height: 25.51vw;
+  box-shadow: 2.29166667vw 2.39583333vw 0px #4fb4d3; 
+
+  align-self: center;
+}
+.text_banner{
+  margin-right: 9.9479167vw; /*distanza tra il testo del banner al bordo della div 191px*/
+  width: 39.1145833vw;
+  margin-top: 13.28125vw;
+}
+.testo_text_banner{
+  height: 4.32291666666666vw;
+  margin-top: 0.729166666666666vw;
+  margin-bottom: 1.77083333333333vw;
+}
+.point_text_banner{
+  height: 2.03125vw;
+}
+.point1{
+  position: absolute;
+  left: 50.90541667vw;
+  top: 87.47078125vw;
+}
+.point1_text_1{  
+  position: absolute;
+  left: 53.54114583vw;
+  top: 87.84171875vw;
+}
+.point1_text_2{
+  position: absolute;
+  left: 53.58859375vw;
+  top: 89.0153125vw;
+}
+.point2{
+  position: absolute;
+  left: 63.71791667vw;
+  top: 87.47078125vw;
+}
+.point2_text_1{  
+  position: absolute;
+  left: 66.35760417vw;
+  top: 87.85161458vw;
+}
+.point2_text_2{
+  position: absolute;
+  left: 66.41234375vw;
+  top: 89.05255208vw;
+}
+.point3{
+  position: absolute;
+  left: 76.08776042vw;
+  top: 87.46953125vw;
+}
+.point3_text_1{
+  position: absolute;
+  left: 79.25484375vw;
+  top: 87.8196875vw;
+}
+.point3_text_2{  
+  position: absolute;
+  left: 79.21901042vw;
+  top: 89.01526042vw;
+}
+
+.text_under_banner{
+  width: 100vw;
+  height: 23.75vw; /*pazio tra banner e room in cui ci sta questa div 
+  che è posta al centro di questo spazio 456px*/
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.room{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /*sono tutte con la stessa tra di loro 303px 
+  e con la stessa distanza dai bordi 167px*/
+}
+.room_item{
+  width: 17.03125vw; 
+  height: 17.96875vw;
+
+  /*OMBRA DELLE FOTO ROOM*/
+  border-top: 3.17708333333vw solid #f2ede8; /*61*/
+  border-left: 2.76041666666667vw solid #f2ede8; /*53*/
+  border-bottom: 3.17708333333vw solid #f2ede8; /*61*/
+  border-right: 2.76041666666667vw solid #f2ede8; /*53*/
+}
+.room_button{
+  margin-left: 17.34375vw; /* spazio dell'inizio dei button dal bordo sinistro 333px*/
+  margin-right: 4.0625vw; /*spazio alla fine della serie dei button e percio dal bordo destro 78px*/
+  width: 78.59375vw; /* la larghezza della zona dei button 1509px*/
+  display: flex;
+  position: relative;
+  top: -2.08333333333vw; /*visto che la div inizia dopo i bordi 
+  per farla stare sopra va posizionata manualmente di 40px*/
+  flex-direction: row;
+  justify-content: space-between; /*il primo e l'ultimo button sono attaccati al bordo della div 
+  il button al centro è posizionato alla stesa distanza dai primi due*/
+}
+.room_button_item{
+  width: 13.07291666666667vw; 
+  height: 4.0625vw; 
+}
+
+.comments{
+  margin-top: 7.76041666666667vw; /*distanza tra room e comments 
+  visto che ho posizionato maualmete i button lo spazio inizia alla fine dei button teorico 
+  e non quello effettivo perciò (189px - 40px = 149px)*/
+  width: 100vw;
+  height: 28.64583333vw;/*550px*/
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.comments_title{
+  width: 28.48958333vw;/*547px*/
+  height: 4.48958333vw;/*67px*/
+}
+.comments_item{
+  width: 100vw;
+  height: 13.38541666667vw;/*257px*/
+  background-color: blueviolet;
+}
+
+
+.go_up{
+  width: 100vw;
+  height: 17.34375vw;
+}
+.award {
+  position: absolute;
+  left: 75.5729166666666vw;
+  top: 162.916666666667vw;
+  width: 6.97916666666666vw;
+  height: 8.69791666666666vw;
+  z-index: 2;
+}
+

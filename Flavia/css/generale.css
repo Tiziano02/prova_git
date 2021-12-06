@@ -1,0 +1,160 @@
+html, body { height: 100%; margin: 0;background-color: #f8f4ee !important;}
+
+button {
+  border: 0px; 
+  padding: 0px;
+  cursor: pointer;
+}
+
+.menu {
+  z-index: 1;
+
+  /*posizione e dimezione*/
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  width: 79.635416666664vw;
+  height: 11.25vw;
+
+  /*come viene visualizzato*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.logo{
+  width: 11.25vw;
+}
+.item1{
+  width: 22.795138888889vw;
+}
+.item2{
+  width: 22.795138888889vw;
+}
+.item3{
+  width: 22.795138888889vw;
+}
+.prenota_ora{
+  z-index: 1;
+
+  /*posizione e dimenzione */
+  position: fixed;
+  right: 0vw;
+  top: 0vw;  
+  width: 20.3645833vw;
+  height: 11.25vw;
+  /*come viene visualizzato */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /*proprietà testo*/
+  font-size: 1.6666667vw;/*32px*/
+  font-family: "Bold";
+  color: rgb(255, 255, 255);
+  
+  line-height: 1.2;
+  letter-spacing: 15;
+  transform: matrix( 1,0,0,1.00010310341272,0,0);
+  /*-webkit-transform: matrix( 1,0,0,1.00010310341272,0,0);
+  -ms-transform: matrix( 1,0,0,1.00010310341272,0,0);*/
+
+}
+
+
+.azzurro{
+background-color: #8bceea;  
+}
+.giallo{
+background-color: #f5c174;  
+}
+.turchese{
+background-color: #56baa7;  
+}
+
+
+
+.footer{
+  width: 100vw;
+  height: 10.2604166667vw;
+  background: linear-gradient(to right,#26b2a7, #7ec6bb);
+}
+.footer_center
+{
+  /*posizione e dimenzione */
+  position: absolute;
+  left: 44.53125vw;
+  width: 11.197916666667vw;
+  height:  10.2604166667vw;
+
+  /*come viene visualizzato*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_left
+{
+  position: absolute;
+  left: 16.8229166667vw;
+  height:  10.2604166667vw;
+  width: 19.0104166667vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_right
+{
+  position: absolute;
+  right: 19.84375vw;
+  height: 10.2604166667vw;
+  width: 18.59375vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_text{
+  font-size: 0.78125vw;
+}
+.instagram{
+width: 1.97916667vw;
+height: 1.92708333vw;
+}
+.facebook{
+width: 1.14583333vw;
+height: 2.1875vw;
+}
+.whatsapp{
+width: 2.08333333vw;
+height: 2.08333333vw;
+}
+
+/* proprietà dei collegamenti e hover
+.menu a {
+  font-size: 1.6666667vw;
+  font-family: "CircularSpotifyText";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-decoration: none;
+  
+.menu a:hover
+{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+}*/
+/* proprietà testo del footer
+.footer_text
+{
+  font-size: 1.30208333vw;
+  font-family: "CircularSpotifyText";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  height: 1.197916666667vw;
+}*/

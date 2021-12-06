@@ -1,0 +1,52 @@
+.content{
+  /*margin-right: 45.05208333vw;*/
+  margin-top: 331px; /*143+216px18.6979166666667vw*/
+  width: 42.91666667vw; 
+  margin-left: 11.875vw;/*228px*/
+  display: flex;
+  flex-direction: column;
+}
+
+.content_title{
+
+  /*FONT*/
+  font-size: 6.991666667vw;
+  font-family: "Circular Std Black";
+  color: rgb(139, 206, 234);
+  line-height: 1.2;
+  transform: matrix( 1,0,0,1.00002681037025,0,0);
+
+  margin-bottom: 28px;/* da rivedere 3.64583333333333vw */
+}
+
+.content_text{
+
+  margin-bottom: 72px;
+  /*FONT*/
+  font-size: 19px;
+  font-family: "Circular Std Light";
+  color: rgb(38, 37, 35);
+  line-height:  1.895;
+  text-align:  justify !important;
+  transform: matrix( 1,0,0,1.00002681037025,0,0);
+}
+.input-field>label {
+
+  font-size: 1.302083333333333vw !important;
+  font-family: "Circular Std" !important;
+  color: #8f8c88 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 40px !important;
+
+}
+.input-field{
+  margin-bottom: 75px !important;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  font-size: 19px !important;
+  font-family: "Circular Std Light" !important;
+  color: rgb(38, 37, 35) !important;
+  line-height:  1.895 !important;
+}
+

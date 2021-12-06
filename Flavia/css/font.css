@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Black';
+  src: url('font/Circular Std Black.otf');
+}
+@font-face {
+  font-family: 'Book';
+  src: url('font/Circular Std Book.otf');
+}
+@font-face {
+  font-family: 'Bold';
+  src: url('font/Circular Std Bold.otf');
+}
+@font-face {
+  font-family: 'Light';
+  src: url('font/Circular Std Light.otf');
+}

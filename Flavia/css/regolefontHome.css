@@ -1,0 +1,95 @@
+.menu > a{
+  font-family: 'Light';
+  font-size: 1.6666667vw;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #262523;
+}
+.menu > a:hover{
+  text-decoration:underline;
+  font-family: 'Bold';
+}
+.title_text_content{
+  font-size: 6.770833333vw;
+  font-family: "Black";
+  color: rgb(140, 207, 234);
+  line-height: 0.879;
+  text-align: left;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+}
+.testo_text_content{
+  font-size: 0.989583333333333vw;
+  font-family: "Light";
+  color: rgb(38, 37, 35);
+  line-height: 1.7;
+  text-align: left;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+}
+.button_text_content{
+  font-family: 'Bold';
+  font-weight: lighter;
+  font-size: 1.30208333vw;
+}
+.title_text_banner{
+  font-size: 4.6875vw;
+  font-family: "Black";
+  color: rgb(249, 245, 239);
+  line-height: 1.2;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+  text-align: left;
+}
+.testo_text_banner{
+  font-size: 0.989583333333333vw;
+  font-family: "Light";
+  text-align: left;
+  color: rgb(249, 245, 239);
+  line-height: 1.579;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+}
+.lettera{
+  font-size: 2.44791666666667vw;
+  font-family: "Black";
+  color: rgb(249, 245, 239);
+  line-height: 1.2;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+  
+}
+.testo1{  
+  font-size: 0.989583333333333vw;
+  font-family: "Bold";
+  color: rgb(249, 245, 239);
+  font-weight: lighter;
+  line-height: 1.2;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+}
+.testo2{
+  font-size: 0.78125vw;
+  font-family: "Book";
+  font-weight: lighter;
+  color: rgb(249, 245, 239);
+}
+.text_under_banner{
+  font-size: 0.989583333vw;
+  font-family: "Light";
+  color: rgb(38, 37, 35);
+  line-height: 1.642;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+}
+.room_button_item{
+  font-family: 'Bold';
+  font-size: 1.30208333vw;
+  font-weight: bold;
+
+  color: #f8f4ee;
+}
+.comments_title{
+  font-size: 4.53125vw;
+  font-family: "Black";
+  color: rgb(249, 245, 239);
+  line-height: 1.2;
+  transform: matrix( 0.99987501562305,0,0,0.99997144978016,0,0);
+}
+
+.footer{
+  background: linear-gradient(to right,#00baac, #6ce1c9) !important;
+}
